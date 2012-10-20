@@ -9,13 +9,18 @@ Converts the selected text in the current window from lines to columns
 based on the number returned from user prompt. For example, if the 
 selected text is:
 
-    col1
-    col2
-    col3
+    r1col1
+    r1col2
+    r1col3
+    r2col1
+    r2col2
+    r2col3
+
 
 ... then you can run this command with argument "3 @" and get:
 
-    col1@col2@col3
+    r1col1@r1col2@r1col3
+    r2col1@r2col2@r2col3
 
 This is useful as a quick and dirty hack for making columnar files for
 raw data. The prompt asks for the number of columns, and optionally a delimiter 
