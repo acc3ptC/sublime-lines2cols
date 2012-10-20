@@ -6,9 +6,19 @@ Sublime Text 2 plugin to contract lines of text into delimited columns
 # Description
 
 Converts the selected text in the current window from lines to columns
-based on the number returned from user prompt. 
+based on the number returned from user prompt. For example, if the 
+selected text is:
 
-The prompt asks for the number of columns, and optionally a delimiter 
+col1
+col2
+col3
+
+... then you can run this command with argument "3 @" and get:
+
+col1@col2@col3
+
+This is useful as a quick and dirty hack for making columnar files for
+raw data. The prompt asks for the number of columns, and optionally a delimiter 
 to be used to separate the columns. 
 
 If the default delimiter of '|' is acceptable, the reply should simply be
