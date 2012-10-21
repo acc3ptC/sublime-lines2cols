@@ -51,15 +51,4 @@ account for CRLF line endings, this has not been tested. You have been warned!
 # License
 
 This plugin is provided 'as-is'; it is free to be copied, 
-modified, used, bent, folded, and/or mutilated. The author 
-takes no responsibility for any form of damages incurred 
-as a result of its use. This includes, but is not limited to,
-loss of data, loss of computer operation, or loss of hair. 
-
-If any modification is made, please recognize that you are now 
-the new plugin's author, and that you must change this header 
-to take full credit (or to incur the emotional toll of legally 
-toothless shame and blame).
-
-If you have read this far into the license you probably have
-better things to do with your time.
+modified, used (... bent, folded, mutilated etc.)
